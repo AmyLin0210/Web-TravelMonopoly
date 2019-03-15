@@ -1,8 +1,14 @@
-let buttonY = document.getElementById("button__start--yellow");
-let buttonB = document.getElementById("button__start--blue");
+let button_start = document.getElementById("button_start");
+let train = document.getElementById("train");
 
-console.log(buttonB);
+button_start.addEventListener("mouseenter", ()=>{
+    button_start.src = "./img/START_yellow.png";
+    train.classList.add("train_move");
+    train.classList.remove("train");
+})
 
-buttonB.addEventListener("click", function() {
-    console.log("test");
-});
+button_start.addEventListener("mouseleave", ()=>{
+    button_start.src = "./img/START_blue.png";
+    train.classList.add("train");
+    train.classList.remove("train_move");
+})
