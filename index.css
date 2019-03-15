@@ -68,12 +68,24 @@ body {
     width: 35vw;
 }
 
+#header {
+    /* position */
+    display: block;
+    position: absolute;
+    top: 25vh;
+    right: 4vw;
+
+    /* skin */
+    height: 30.5vh;
+    width: 48vw;
+}
+
 #title {
     /* position */
     display: block;
     position: absolute;
-    top: 30vh;
-    right: 14vw;
+    top: 10vh;
+    right: 10vw;
 
     /* skin */
     height: 25vh;
@@ -84,8 +96,8 @@ body {
     /* position */
     display: block;
     position: absolute;
-    top: 25vh;
-    right: 4vw;
+    top: 3vh;
+    right: 1vw;
 
     /* skin */
     height: 10vh;
@@ -96,8 +108,8 @@ body {
     /* position */
     display: block;
     position: absolute;
-    top: 47.5vh;
-    right: 4vw;
+    top: 27.5vh;
+    right: 0vw;
 
     /* skin */
     height: 8vh;
