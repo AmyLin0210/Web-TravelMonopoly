@@ -121,11 +121,11 @@ body {
     display: block;
     position: absolute;
     bottom: 0vh;
-    right: 30vw;
+    right: 33vw;
 
     /* skin */
     height: 10vh;
-    width: 20vw;
+    width: 28vw;
 
     /* transition */
     transition-property: all;
@@ -141,7 +141,7 @@ body {
 
     /* skin */
     height: 10vh;
-    width: 20vw;
+    width: 28vw;
 
     /* transition */
     transition-property: all;
