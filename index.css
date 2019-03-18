@@ -125,7 +125,7 @@ body {
 
     /* skin */
     height: 10vh;
-    width: 28vw;
+    width: 33vw;
 
     /* transition */
     transition-property: all;
@@ -137,11 +137,11 @@ body {
     display: block;
     position: absolute;
     bottom: 0vh;
-    right: 20vw;
+    right: 18vw;
 
     /* skin */
     height: 10vh;
-    width: 28vw;
+    width: 33vw;
 
     /* transition */
     transition-property: all;
